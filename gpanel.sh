@@ -8,7 +8,7 @@ cd /srv/daemon
 curl -L https://github.com/Root-didi/daemon/archive/refs/tags/ff.zip | tar --strip-components=1 -xzv
 npm install --only=production --no-audit --unsafe-perm
 nano /srv/daemon/config/core.json
-npm start
+npm start -- debug
 
 
 
